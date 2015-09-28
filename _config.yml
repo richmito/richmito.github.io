@@ -1,0 +1,47 @@
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://richmito.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+#url: "127.0.0.1:4000"
+
+# User settings
+username: Richelmy Monteiro
+user_description: Buscando fazer as coisas funcionarem direito 
+#user_title: Estudante
+email: richelmy.monteiro@gmail.com 
+twitter_username: richelmy 
+github_username: richmito 
+#gplus_username:  lorem_ipsum
+disqus_username: richelmy
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+#  - title: Series
+#    url: /series
+  - title: Tags
+    url: /tags
+  - title: Sobre mim
+    url: /about
+  - title: Experiências Profissionais
+    url: /exp
+
+
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description>A blog about lorem ipsum dolor sit amet</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 27 Sep 2015 21:19:28 -0300</pubDate>
+    <lastBuildDate>Sun, 27 Sep 2015 21:19:28 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Qual o propósito deste site</title>
+        <description>&lt;p&gt;O propósito primário da criação deste site/blog é a de registro de técnicas e processos novos que descubro e desenvolvo no meu dia-dia.&lt;/p&gt; &lt;p&gt;O secundário é ganhar prática no uso da ferramenta &lt;em&gt;git&lt;/em&gt; e a elaboração de posts usando o &lt;em&gt;Jekyll&lt;/em&gt; e &lt;em&gt;Markdown&lt;/em&gt;, sendo a primeira o motor responsável pelas páginas de usuários do github e o segundo a linguagem de marcação no qual as páginas são escritas.&lt;/p&gt; &lt;p&gt;Além disso há o bônus da criação de um protótipo de portfólio no github, onde irei expor minhas aptidões, mesmo usando o github, o material postado lá não necessariamente será na forma...</description>
+        <pubDate>Fri, 25 Sep 2015 01:34:43 -0300</pubDate>
+        <link>/qual-o-proposito/</link>
+        <guid isPermaLink="true">/qual-o-proposito/</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;p&gt;Hello world!
+Teste inicial de postagem usando octopress e jekyll&lt;br /&gt;
+Quebra de linha com dois espaços após o fim da linha&lt;br /&gt;
+Quebra de linha com um espaço após o fim da linha&lt;br /&gt;
+Quebra de linha usando tag html br&lt;br /&gt;
+&lt;em&gt;Teste de itálico&lt;/em&gt;&lt;br /&gt;
+&lt;strong&gt;Teste de negrito&lt;/strong&gt;&lt;br /&gt;
+# Teste de título 1&lt;br /&gt;
+## Teste de título 2&lt;br /&gt;
+###### Teste de título 6&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Sep 2015 21:31:28 -0300</pubDate>
+        <link>/hello-world/</link>
+        <guid isPermaLink="true">/hello-world/</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+  </channel>
+</rss>
