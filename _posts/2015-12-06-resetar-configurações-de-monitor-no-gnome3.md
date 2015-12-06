@@ -4,7 +4,7 @@ title: "Resetar configurações de monitor no GNOME3"
 date: 2015-12-06 02:21:01
 image: '/assets/img/'
 description:
-tags: Linux,GNOME, Resolvido, xrandr
+tags: Linux GNOME Resolvido xrandr
 categories:
 twitter_text:
 ---
@@ -58,5 +58,5 @@ O comando acima faz exatamente isso, não apaga, apenas renomeia o arquivo, perm
 Depois de reiniciar o sistema, o GNOME retornou as configurações padrão de monitor, ou seja, ambos espelhados e ambos ligados, como antes.  
 
 
-Uso Debian 8 x86_64
+Uso Debian 8 x86_64  
 GNOME 3.14.0
