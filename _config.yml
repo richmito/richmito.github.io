@@ -1,13 +1,13 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: Um blog sobre pequenas descobertas
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "http://richmito.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 #url: "127.0.0.1:4000"
-
 # User settings
+title: "Richelmy Monteiro" # título exibido na aba do site
 username: Richelmy Monteiro
 user_description: Buscando fazer as coisas funcionarem direito 
-#user_title: Estudante
+# user_title: Estudante # título "estudante" fica feio aparecendo tão grande e não tenho outro pra substituí-lo hahahaha
 email: richelmy.monteiro@gmail.com 
 twitter_username: richelmy 
 github_username: richmito 
