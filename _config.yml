@@ -16,7 +16,7 @@ disqus_username: richelmy
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge # pygments replaced by rouge on Jekyll 3.0 update
 permalink: /:title/
 
 
