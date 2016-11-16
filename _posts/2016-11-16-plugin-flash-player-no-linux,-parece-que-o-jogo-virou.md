@@ -46,7 +46,7 @@ Relembrando que este plugin trata-se de um beta, por causa disso ele tem versão
 Como no momento a única coisa que preciso usar flash é o player de gifs do facebook, e como só tive problemas nele com o Opera (aparentemente já foi resolvido) então tudo certo.  
 
 Falando em Opera...   
-## Novo Plugin Flash no Opera ##   
+### Novo Plugin Flash no Opera ###   
 
 Ué mais problemas? É só mais umzinho. O plugin instalado por pacote manda o arquivo pra uma pasta específica, que no caso do PPAPI, pacote RPM em sistema 64bits, vai pra <code>/usr/lib64/flash-plugin/libpepflashplayer.so</code>, mas o Opera procura plugin no próprio diretório (<code>/usr/lib64/opera/plugins/</code>.  
 E agora? Agora você pode criar um link simbólico [aqui o Guia Foca falando sobre ele](http://www.guiafoca.org/cgs/guia/iniciante/ch-cmdv.html) usando o comando seguinte:  
@@ -74,7 +74,7 @@ Creio que seja um consenso, que a pasta "plugins" dentro da pasta padrão do bro
 Exemplo: /usr/lib/netscape/plugins  
 ou C:\Program Files(x86)\Mozilla Firefox\plugins 
 por aí vai.     
-### Navegadores que tem como base o Gecko:###   
+### Navegadores que tem como base o Gecko: ###   
 [Segundo este documento](https://developer.mozilla.org/en-US/docs/Plugins/Guide/Plug-in_Basics#How_Gecko_Finds_Plug-ins), navegadores que usam Gecko, do qual o Firefox está incluso, encontram seus plugins nas pastas:  
 <code>~/.mozilla/plugins</code><br>
 <code>/usr/lib/mozilla/plugins</code><br>
@@ -90,29 +90,30 @@ Quer uma listinha dos browsers que usam WebKit? [TOMA](https://en.wikipedia.org/
 O PepperFlash foi inicialmente um plugin pra ser usado pelo Chromium, criando uma alternativa substitutiva ao Google Chrome, então vamos ter como base o diretório dele, dependendo de como sua distro nomeia o pacote do programa:  
 <code>/usr/lib64/chromium-browser/PepperFlash</code>
 <code>/usr/lib64/chromium/PepperFlash</code>  
-Agora uma lista oficial do engine WebKit [fonte](http://stackoverflow.com/questions/10208392/how-does-webkit-find-libflashplayer-so):  
-* <code>$MOZ_PLUGIN_PATH</code>
-* <code>$MOZILLA_HOME/plugins</code>
-* <code>$HOME/.mozilla/plugins</code>
-* <code>$HOME/.netscape/plugins</code>
-* <code>/usr/lib/browser/plugins</code>
-* <code>/usr/local/lib/mozilla/plugins</code>
-* <code>/usr/lib/firefox/plugins</code>
-* <code>/usr/lib64/browser-plugins</code>
-* <code>/usr/lib/browser-plugins</code>
-* <code>/usr/lib/mozilla/plugins</code>
-* <code>/usr/local/netscape/plugins</code>
-* <code>/opt/mozilla/plugins</code>
-* <code>/opt/mozilla/lib/plugins</code>
-* <code>/opt/netscape/plugins</code>
-* <code>/opt/netscape/communicator/plugins</code>
-* <code>/usr/lib/netscape/plugins</code>
-* <code>/usr/lib/netscape/plugins-libc5</code>
-* <code>/usr/lib/netscape/plugins-libc6</code>
-* <code>/usr/lib64/netscape/plugins</code>
-* <code>/usr/lib64/mozilla/plugins</code>
-* <code>/usr/lib/nsbrowser/plugins</code>
-* <code>/usr/lib64/nsbrowser/plugins</code>
+Agora uma lista oficial do engine WebKit [fonte](http://stackoverflow.com/questions/10208392/how-does-webkit-find-libflashplayer-so): 
+Pra mim é evidente que a lista inclui o suporte a plugin NPAPI.   
+*  <code>$MOZ_PLUGIN_PATH</code><br>
+*  <code>$MOZILLA_HOME/plugins</code><br>
+*  <code>$HOME/.mozilla/plugins</code><br>
+*  <code>$HOME/.netscape/plugins</code><br>
+*  <code>/usr/lib/browser/plugins</code><br>
+*  <code>/usr/local/lib/mozilla/plugins</code><br>
+*  <code>/usr/lib/firefox/plugins</code><br>
+*  <code>/usr/lib64/browser-plugins</code><br>
+*  <code>/usr/lib/browser-plugins</code><br>
+*  <code>/usr/lib/mozilla/plugins</code><br>
+*  <code>/usr/local/netscape/plugins</code><br>
+*  <code>/opt/mozilla/plugins</code><br>
+*  <code>/opt/mozilla/lib/plugins</code><br>
+*  <code>/opt/netscape/plugins</code><br>
+*  <code>/opt/netscape/communicator/plugins</code><br>
+*  <code>/usr/lib/netscape/plugins</code><br>
+*  <code>/usr/lib/netscape/plugins-libc5</code><br>
+*  <code>/usr/lib/netscape/plugins-libc6</code><br>
+*  <code>/usr/lib64/netscape/plugins</code><br>
+*  <code>/usr/lib64/mozilla/plugins</code><br>
+*  <code>/usr/lib/nsbrowser/plugins</code><br>
+*  <code>/usr/lib64/nsbrowser/plugins</code><br>
 
 
 O [site do Opera](http://www.opera.com/docs/linux/plugins/install/#flash) diz que o local onde ele busca o plugin é apenas no:  
